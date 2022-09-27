@@ -1,0 +1,31 @@
+{
+  "name": "directus-custom-enpoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Goffity Corleone",
+  "repository": {
+    "url": "https://github.com/goffity/directus-custom-enpoint",
+    "type": "git"
+  },
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest --transformIgnorePatterns \"node_modules/(?!@toolz/allow)/\""
+  },
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "directus": "^9.18.1",
+    "pg": "^8.8.0",
+    "pino": "^8.6.0",
+    "pino-tee": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
+  },
+  "volta": {
+    "node": "16.17.1",
+    "yarn": "1.22.19"
+  }
+}
