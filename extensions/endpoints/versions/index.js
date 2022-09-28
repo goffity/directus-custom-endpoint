@@ -1,3 +1,4 @@
+const format = require("../../utils/utils");
 module.exports = function versionInfo(router,logger) {
     router.get('/', (_req, res) => {
         logger.info("versions");
