@@ -10,7 +10,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "jest --transformIgnorePatterns \"node_modules/(?!@toolz/allow)/\""
+    "test": "jest"
   },
   "jest": {
     "verbose": true
