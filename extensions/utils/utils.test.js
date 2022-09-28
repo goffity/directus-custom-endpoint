@@ -1,12 +1,9 @@
-const sayhi = require('./utils');
+const format = require('./utils');
 
-describe('success sayHi', () => {
+describe('success', () => {
     test('success', () => {
-        expect(sayhi()).toBe('👋');
+        expect(format(6000)).toBe('01:40:00');
     });
-    it('fail',()=>{
-        expect(sayhi()).not.toBe('')
-    })
 });
 
 
